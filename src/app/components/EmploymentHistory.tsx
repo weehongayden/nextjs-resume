@@ -10,8 +10,15 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "row",
   },
+  rowHistory: {
+    display: "flex",
+    paddingBottom: 20,
+  },
   columnTitle: {
-    flex: "1 1 400px",
+    flex: "1 1 200px",
+  },
+  columnDescription: {
+    flex: "1 1 100%",
   },
   heading: {
     fontSize: 16,
@@ -59,7 +66,7 @@ export const EmploymentHistory = () => {
         <Text style={styles.heading}>Employment History</Text>
       </View>
       {employmentHistory.map((history) => (
-        <View>
+        <View style={styles.rowHistory}>
           <View style={styles.twoColumn}>
             <View style={styles.columnTitle}>
               <Text style={styles.subheading}>{history.name}</Text>
@@ -67,7 +74,7 @@ export const EmploymentHistory = () => {
               <Text style={styles.sidenote}>{history.role}</Text>
               <Text style={styles.sidenote}>{history.duration}</Text>
             </View>
-            <View>
+            <View style={styles.columnDescription}>
               {history.jobDescription.map((description) => (
                 <View style={styles.description}>
                   <Text style={styles.list}>{`\u2022`}</Text>
