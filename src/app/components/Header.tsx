@@ -10,15 +10,15 @@ const styles = StyleSheet.create({
     borderBottom: "1px solid black",
   },
   title: {
-    fontSize: 24,
-    fontFamily: "IBM Plex Mono",
-  },
-  subtitle: {
     fontSize: 20,
     fontFamily: "IBM Plex Mono",
   },
+  subtitle: {
+    fontSize: 16,
+    fontFamily: "IBM Plex Mono",
+  },
   paragraph: {
-    fontSize: 14,
+    fontSize: 12,
     fontFamily: "IBM Plex Mono",
   },
 });

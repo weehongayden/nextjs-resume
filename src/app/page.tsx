@@ -1,5 +1,3 @@
-"use client";
-
 import { EmploymentHistory } from "@/app/components/EmploymentHistory";
 import { Header } from "@/app/components/Header";
 import { Intro } from "@/app/components/Intro";
