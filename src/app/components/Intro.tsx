@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   },
   paragraph: {
     fontSize: 12,
-    fontFamily: "IBM Plex Mono",
+    fontFamily: "Open Sans",
     textAlign: "justify",
   },
 });

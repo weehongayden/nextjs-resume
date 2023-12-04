@@ -24,6 +24,8 @@ const styles = StyleSheet.create({
   },
   columnTitle: {
     flex: "1 1 200px",
+    display: "flex",
+    flexDirection: "column",
   },
   columnDescription: {
     flex: "1 1 100%",
@@ -31,16 +33,14 @@ const styles = StyleSheet.create({
   heading: {
     fontSize: 14,
     fontWeight: 700,
-    fontFamily: "IBM Plex Mono",
+    fontFamily: "Open Sans",
     textTransform: "uppercase",
   },
   subheading: {
     fontSize: 12,
     fontWeight: 700,
-    fontFamily: "IBM Plex Mono",
+    fontFamily: "Open Sans",
     textTransform: "uppercase",
-    paddingTop: 10,
-    paddingBottom: 15,
   },
   list: {
     marginLeft: 8,
@@ -53,13 +53,12 @@ const styles = StyleSheet.create({
   paragraph: {
     display: "flex",
     fontSize: 12,
-    fontFamily: "IBM Plex Mono",
+    fontFamily: "Open Sans",
     textAlign: "justify",
   },
   sidenote: {
-    display: "flex",
     fontSize: 10,
-    fontFamily: "IBM Plex Mono",
+    fontFamily: "Open Sans",
     textAlign: "justify",
   },
 });

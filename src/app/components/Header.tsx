@@ -11,15 +11,15 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 20,
-    fontFamily: "IBM Plex Mono",
+    fontFamily: "Open Sans",
   },
   subtitle: {
     fontSize: 16,
-    fontFamily: "IBM Plex Mono",
+    fontFamily: "Open Sans",
   },
   paragraph: {
     fontSize: 12,
-    fontFamily: "IBM Plex Mono",
+    fontFamily: "Open Sans",
   },
 });
 

@@ -14,6 +14,18 @@ type ResumeProp = {
     duration: string;
     jobDescription: Array<string>;
   }>;
+  skills: {
+    language: Array<string>;
+    framework: Array<string>;
+    database: Array<string>;
+    technology: Array<string>;
+  };
+  education: Array<{
+    name: string;
+    country: string;
+    duration: string;
+    degree: string;
+  }>;
 };
 
 export const resume: ResumeProp = {
@@ -70,6 +82,26 @@ export const resume: ResumeProp = {
         "Managed project and conducted code review for both internal and external development team",
         "Managed and maintained the company server to inspect the health and capacity status, which hosts about 60 websites",
       ],
+    },
+  ],
+  skills: {
+    language: ["Java, Javascript, Typescript, C#"],
+    framework: ["Spring Boot 3, ReactJS, .NET Core"],
+    database: ["MySQL, PostgreSQL, MongoDB, Redis"],
+    technology: ["Docker, Git, Jenkins, SonarQube"],
+  },
+  education: [
+    {
+      name: "Tunku Abdul Rahman University College",
+      country: "Malaysia",
+      duration: "2012 — 2014",
+      degree: "Advanced Diploma in Internet Technology cum BS Degree",
+    },
+    {
+      name: "Campbell University",
+      country: "North Carolina",
+      duration: "2012 — 2014",
+      degree: "B.S. in Information Technology",
     },
   ],
 };
